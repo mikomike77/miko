@@ -7,6 +7,8 @@ public class Calculator extends JFrame implements ActionListener {
 	
 //	variable declaration
 	
+
+	private static final long serialVersionUID = 1L;
 	private JPanel panel;
 	static JButton equalsButton,addButton,subButton,divButton,multiButton,clearButton,plusMinusButton,decimalButton;
 	static JButton zeroButton,oneButton,twoButton,threeButton,fourButton,fiveButton,sixButton,sevenButton,eightButton,nineButton,tenButton;
@@ -136,24 +138,24 @@ public class Calculator extends JFrame implements ActionListener {
 		
 //		Click listener
 		
-//		zeroButton.addActionListener(this);
-//		oneButton.addActionListener(this);
-//		twoButton.addActionListener(this);
-//		threeButton.addActionListener(this);
-//		fourButton.addActionListener(this);
-//		fiveButton.addActionListener(this);
-//		sixButton.addActionListener(this);
-//		sevenButton.addActionListener(this);
-//		eightButton.addActionListener(this);
-//		nineButton.addActionListener(this);
-//		addButton.addActionListener(this);
-//		subButton.addActionListener(this);
-//		multiButton.addActionListener(this);
-//		divButton.addActionListener(this);
-//		clearButton.addActionListener(this);
-//		decimalButton.addActionListener(this);
-//		plusMinusButton.addActionListener(this);
-//		equalsButton.addActionListener(this);
+		zeroButton.addActionListener(this);
+		oneButton.addActionListener(this);
+		twoButton.addActionListener(this);
+		threeButton.addActionListener(this);
+		fourButton.addActionListener(this);
+		fiveButton.addActionListener(this);
+		sixButton.addActionListener(this);
+		sevenButton.addActionListener(this);
+		eightButton.addActionListener(this);
+		nineButton.addActionListener(this);
+		addButton.addActionListener(this);
+		subButton.addActionListener(this);
+		multiButton.addActionListener(this);
+		divButton.addActionListener(this);
+		clearButton.addActionListener(this);
+		decimalButton.addActionListener(this);
+		plusMinusButton.addActionListener(this);
+		equalsButton.addActionListener(this);
 		
 	}
 	
